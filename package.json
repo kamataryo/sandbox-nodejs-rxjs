@@ -6,9 +6,11 @@
   "author": "kamataryo <mugil.cephalus+mugil.cephalus@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc && cp ./public/* ./dist/"
+    "build": "tsc",
+    "start": "npm run build"
   },
   "devDependencies": {
+    "@types/node": "^10.12.21",
     "typescript": "^3.3.1"
   },
   "dependencies": {

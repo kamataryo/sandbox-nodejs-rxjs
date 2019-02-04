@@ -8,5 +8,5 @@
     "sourceMap": true,
     "outDir": "./dist"
   },
-  "files": ["src/main.ts"]
+  "includes": ["src/**/*.ts"]
 }
